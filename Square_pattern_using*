@@ -1,0 +1,9 @@
+n = int(input("Tell Number of lines:"))
+
+for i in range(1,n+1): #idr n + 1 lgaya kyuki python humesha n -1 range rkhta hai jisse agr maine range(1,10) ki toh yeh 9 tk hee chlega aur ager maine isko 10 tkk chlana hai toh mai + 1 krunga n mai
+    for j in range(1,n+1):
+        if (i == 1 or i == n or j == 1 or j == n):
+            print("*", end = " ") # end=" " ka matlab hai line change mat karo, bas ek space deke same line me print karo
+        else:
+            print(" ",end = " ") # agar hum end = " " nhi karenge toh python next line mai chla jaega
+    print() 
