@@ -1,0 +1,19 @@
+#for loop
+'''i = 1
+for i in range(199):
+    print("i =",i)
+    i = i+1'''
+
+#while loop
+count = 1
+while count <= 5:
+    print("Hello")
+    count = count + 1
+
+#break statement
+i = 1
+for i in range(10):
+   
+    if i == 5:
+        continue
+    print(i) 
